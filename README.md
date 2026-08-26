@@ -12,9 +12,11 @@ ESP32-bassed custom controller to run a 2001-2005 iS300 gauge cluster
 - Add a web interface
 
 ### Images & Demo
+BeamNG Demo (YouTube Link)
+
+[![YouTube Demo](https://img.youtube.com/vi/OzqAQdauacs/0.jpg)](https://youtu.be/OzqAQdauacs)
 ![My Friend Playing BeamNG](iS300.png)
 ![Fully Soldered PCB](PCB/PCB.png)
-[YouTube Demo](https://www.youtube.com/@spotech-dev)
 
 ## Pin-Out Documents
 - [Wiring Diagrams](https://www.2jzgarage.com/2013/04/is300-wiring-diagrams/)
