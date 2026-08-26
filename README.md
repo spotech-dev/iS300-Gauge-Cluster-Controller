@@ -4,24 +4,30 @@ ESP32-bassed custom controller to run a 2001-2005 iS300 gauge cluster
 ### To-Dos
 - Fix the power input mixup
 - Move headlight level pin away from GPIO46 (input-only)
-- Add Forza support
+- Add Forza Horizon support
+- Add Assetto Corsa support
 - Print iP address using tach and speed
 - Add Toyota MPX support
 - Add USB support
 - Add a web interface
 
+### Images & Demo
+![My Friend Playing BeamNG](iS300.png)
+![Fully Soldered PCB](PCB/PCB.png)
+[YouTube Demo](https://www.youtube.com/@spotech-dev)
+
 ## Pin-Out Documents
 - [Wiring Diagrams](https://www.2jzgarage.com/2013/04/is300-wiring-diagrams/)
-- [Reverse-Engineered Pinouts & Behavior]()
-- [2001 Pinouts]()
-- [2002-2005 Pinouts]()
+- [Reverse-Engineered Pinouts & Behavior](Documents/2001-iS300-Reverse-Engineered-Pinout.pdf)
+- [2001 Pinouts](Documents/2001-iS300-Service-Pinout.pdf)
+- [2002-2005 Pinouts](Documents/2002-2005-iS300-Service-Pinout.pdf)
 
 
 ## PCB Schematic & Layout
-![Schematic]()
-![Layout]()
+![Layout](PCB/Layout.png)
+![Schematic](PCB/Schematic.png)
 
-**Given the current state of the PCB, do NOT connect both the 12v barrel jack and the USB-C port at once. Only use one or the other at any given time or disconnect D2 near the USB-C connector to isolate the power from the USB-C port**
+**WARNING: Given the current state of the PCB, do NOT connect both the 12v barrel jack and the USB-C port at once. Only use one or the other at any given time or disconnect D2 near the USB-C connector to isolate the power from the USB-C port**
 
 ## Program
 Written in the Arduino IDE, this is a (very) rough version 1 with full functionality of the indicator lights as well as the tachometer and the speedometer. It connects over WiFi and support BeamNG Drive using the telemetry settings. Feel free to modify the code however you want and *please* upload it on GitHub to contribute to this repository.
